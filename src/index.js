@@ -1,3 +1,4 @@
+import './styles.scss';
 // import Button from './Components/Button';
 //
 // If we have an anchor, render the Button component on it
@@ -7,7 +8,7 @@ if (document.querySelectorAll('a').length) {
         const button = new Button('google.com');
 
         button.render('a');
-    }, 'button');
+    });
 }
 
 // If we have a title, render the Header component on it
